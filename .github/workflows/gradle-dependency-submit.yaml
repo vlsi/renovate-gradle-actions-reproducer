@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Generate and submit dependency graph
-      uses: gradle/actions/dependency-submission@06832c7b30a0129d7fb559bcc6e43d26f6374244 # v4
+      uses: gradle/actions/dependency-submission@0723195856401067f7a2779048b490ace7a47d7c # v5
       with:
         # Profiler plugins do not expose the dependencies to the runtime, so the versions used for the build
         # do not affect the execution. At the same time, we might need to build plugins for different thirdparty
